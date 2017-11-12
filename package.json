@@ -1,0 +1,56 @@
+{
+  "name": "snabbdom-shields-badge",
+  "version": "0.0.0",
+  "description": "Makes Shields.io badge VNodes.",
+  "main": "./lib/index.js",
+  "scripts": {
+    "lint": "eslint --ext .ts src/**/*.ts",
+    "compile": "tsc",
+    "unit": "nyc ava",
+    "test": "run-s lint compile unit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mightyiam/snabbdom-shields-badge.git"
+  },
+  "keywords": [
+    "snabbdom",
+    "shields",
+    "shields.io",
+    "badge",
+    "badges",
+    "vnode"
+  ],
+  "author": "Shahar Or <mightyiampresence@gmail.com> (https://mightyi.am/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mightyiam/snabbdom-shields-badge/issues"
+  },
+  "homepage": "https://github.com/mightyiam/snabbdom-shields-badge#readme",
+  "files": [
+    "lib/index.js",
+    "lib/index.d.ts"
+  ],
+  "devDependencies": {
+    "ava": "^0.23.0",
+    "eslint": "^4.11.0",
+    "eslint-config-standard-with-typescript": "^1.0.6",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "eslint-plugin-typescript": "^0.8.0",
+    "npm-run-all": "^4.1.2",
+    "nyc": "^11.3.0",
+    "nyc-config-100": "^1.0.1",
+    "typescript": "2.6.1",
+    "typescript-eslint-parser": "^9.0.0"
+  },
+  "dependencies": {
+    "shields-badge-data": "^2.0.2",
+    "snabbdom": "^0.7.0"
+  },
+  "nyc": {
+    "extends": "nyc-config-100"
+  }
+}
