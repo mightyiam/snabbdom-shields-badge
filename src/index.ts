@@ -1,4 +1,4 @@
-import badge, { BadgeName, BadgeArgs, Options, BadgeData } from 'shields-badge-data'
+import badge, { BadgeName, BadgeArgs, Options } from 'shields-badge-data'
 import { h } from 'snabbdom'
 import { VNode } from 'snabbdom/vnode'
 

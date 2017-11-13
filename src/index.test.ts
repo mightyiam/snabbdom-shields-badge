@@ -1,7 +1,6 @@
 import test from 'ava'
 import subject from '.'
 import { h } from 'snabbdom'
-import { BadgeName, BadgeArgs, Options, BadgeData } from 'shields-badge-data'
 
 test('test it', t => {
   const actual = subject([
