@@ -48,7 +48,7 @@
     "typescript-eslint-parser": "^9.0.0"
   },
   "dependencies": {
-    "shields-badge-data": "^2.0.2",
+    "shields-badge-data": "^2.0.3",
     "snabbdom": "^0.7.0"
   },
   "nyc": {
