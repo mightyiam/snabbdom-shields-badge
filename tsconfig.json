@@ -1,15 +1,3 @@
 {
-  "compilerOptions": {
-    "target": "es2015",
-    "module": "commonjs",
-    "lib": ["es2017", "dom"],
-    "declaration": true,
-    "outDir": "./lib",
-    "strict": true,
-    "inlineSourceMap": true,
-    "inlineSources": true
-  },
-  "include": [
-    "./src"
-  ]
+  "extends": "./node_modules/tsconfigs/browser"
 }
