@@ -1,28 +1,31 @@
-import badge, { BadgeName, BadgeArgs, Options, BadgeData } from 'shields-badge-data'
+import badge, { BadgeName, BadgeArgs, Options as ShieldsBadgeDataOptions } from 'shields-badge-data'
 import { h } from 'snabbdom'
 import { VNode } from 'snabbdom/vnode'
 
-export type BadgeInput = [ BadgeName, BadgeArgs, Options]
+/**
+ * The arguments to `shields-badge-data`.
+ */
+export type BadgeInput = [ BadgeName, BadgeArgs, ShieldsBadgeDataOptions]
 
-export default (badgeInput: BadgeInput): VNode => {
+export interface Options {
+  /**
+   * Whether the provided `img` is wrapped in an `a`.
+   */
+  a?: boolean
+}
+
+const defaultOptions: Options = {
+  a: true
+}
+
+const makeA = (href: string, img: VNode) => h('a', { attrs: { href } }, [img])
+
+export default (badgeInput: BadgeInput, options?: Options): VNode => {
+  options = { ...defaultOptions, ...options }
+
   const { title, image, link } = badge(badgeInput[0], badgeInput[1], badgeInput[2])
-  return h(
-    'a',
-    {
-      attrs: {
-        href: link.href
-      }
-    },
-    [
-      h(
-        'img',
-        {
-          attrs: {
-            alt: title,
-            src: image.href
-          }
-        }
-      )
-    ]
-  )
+
+  const img = h('img', { attrs: { alt: title, src: image.href } })
+
+  return options.a ? makeA(link.href, img) : img
 }
