@@ -18,7 +18,7 @@ const defaultOptions: Options = {
   a: true
 }
 
-const makeA = (href: string, img: VNode) => h('a', { attrs: { href } }, [img])
+const makeA = (href: string, img: VNode): VNode => h('a', { attrs: { href } }, [img])
 
 export default (badgeInput: BadgeInput, options?: Options): VNode => {
   options = { ...defaultOptions, ...options }
