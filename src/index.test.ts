@@ -2,7 +2,7 @@ import test from 'ava'
 import subject from '.'
 import { h } from 'snabbdom'
 
-test('simple', t => {
+test('simple', (t): void => {
   const actual = subject([
     'customBadge',
     {
@@ -36,7 +36,7 @@ test('simple', t => {
   t.deepEqual(actual, expected)
 })
 
-test('`options: {}`', t => {
+test('`options: {}`', (t): void => {
   const actual = subject(
     [
       'customBadge',
@@ -73,7 +73,7 @@ test('`options: {}`', t => {
   t.deepEqual(actual, expected)
 })
 
-test('`options.a: false`', t => {
+test('`options.a: false`', (t): void => {
   const actual = subject(
     [
       'customBadge',
