@@ -47,7 +47,7 @@
     "tsconfigs": "^2.0.0",
     "tslib": "^1.8.0",
     "typescript": "2.7.2",
-    "typescript-eslint-parser": "^14.0.0"
+    "typescript-eslint-parser": "^18.0.0"
   },
   "dependencies": {
     "shields-badge-data": "^3.0.0",
