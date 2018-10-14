@@ -34,24 +34,24 @@
   ],
   "devDependencies": {
     "ava": "^0.25.0",
-    "eslint": "^4.18.1",
-    "eslint-config-standard-with-typescript": "^3.0.0",
-    "eslint-plugin-import": "^2.9.0",
-    "eslint-plugin-node": "^6.0.1",
-    "eslint-plugin-promise": "^3.6.0",
-    "eslint-plugin-standard": "^3.0.1",
+    "eslint": "^5.7.0",
+    "eslint-config-standard-with-typescript": "^4.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
     "eslint-plugin-typescript": "^0.12.0",
-    "npm-run-all": "^4.1.2",
-    "nyc": "^11.3.0",
+    "npm-run-all": "^4.1.3",
+    "nyc": "^13.1.0",
     "nyc-config-100": "^1.0.1",
-    "tsconfigs": "^2.0.0",
-    "tslib": "^1.8.0",
-    "typescript": "2.7.2",
-    "typescript-eslint-parser": "^14.0.0"
+    "tsconfigs": "^3.0.0",
+    "tslib": "^1.9.3",
+    "typescript": "3.1.3",
+    "typescript-eslint-parser": "^20.0.0"
   },
   "dependencies": {
-    "shields-badge-data": "^3.0.0",
-    "snabbdom": "^0.7.0"
+    "shields-badge-data": "^3.0.1",
+    "snabbdom": "^0.7.2"
   },
   "nyc": {
     "extends": "nyc-config-100"
