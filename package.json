@@ -33,7 +33,7 @@
     "lib/index.d.ts"
   ],
   "devDependencies": {
-    "ava": "^0.25.0",
+    "ava": "^1.0.1",
     "eslint": "^5.7.0",
     "eslint-config-standard-with-typescript": "^6.0.0",
     "eslint-plugin-import": "^2.14.0",
