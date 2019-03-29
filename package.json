@@ -52,7 +52,7 @@
   },
   "dependencies": {
     "shields-badge-data": "^3.0.1",
-    "snabbdom": "^0.7.2"
+    "snabbdom": "^0.7.3"
   },
   "nyc": {
     "extends": "nyc-config-100"
