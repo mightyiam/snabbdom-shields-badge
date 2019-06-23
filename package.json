@@ -33,7 +33,7 @@
     "lib/index.d.ts"
   ],
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^1.5.0",
+    "@typescript-eslint/eslint-plugin": "^1.11.0",
     "@typescript-eslint/parser": "^1.5.0",
     "ava": "^2.1.0",
     "eslint": "^5.15.3",
