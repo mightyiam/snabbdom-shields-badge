@@ -37,7 +37,7 @@
     "@typescript-eslint/parser": "^1.11.0",
     "ava": "^2.1.0",
     "eslint": "^5.15.3",
-    "eslint-config-standard-with-typescript": "^7.0.0",
+    "eslint-config-standard-with-typescript": "^8.0.0",
     "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-node": "^9.0.0",
     "eslint-plugin-promise": "^4.0.1",
