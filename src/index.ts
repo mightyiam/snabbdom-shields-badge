@@ -27,5 +27,5 @@ export default (badgeInput: BadgeInput, options?: Options): VNode => {
 
   const img = h('img', { attrs: { alt: title, src: image.href } })
 
-  return options.a ? makeA(link.href, img) : img
+  return options.a === true ? makeA(link.href, img) : img
 }
