@@ -41,8 +41,9 @@
   },
   "homepage": "https://github.com/mightyiam/snabbdom-shields-badge#readme",
   "files": [
+    "lib/index.d.ts",
     "lib/index.js",
-    "lib/index.d.ts"
+    "src/index.ts"
   ],
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
