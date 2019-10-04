@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.0.3](https://github.com/mightyiam/snabbdom-shields-badge/compare/v3.0.2...v3.0.3) (2019-10-04)
+
+
+### Bug Fixes
+
+* add source map file to bundle ([9ba45e5](https://github.com/mightyiam/snabbdom-shields-badge/commit/9ba45e5))
+
 ### [3.0.2](https://github.com/mightyiam/snabbdom-shields-badge/compare/v3.0.1...v3.0.2) (2019-10-04)
 
 ### [3.0.1](https://github.com/mightyiam/snabbdom-shields-badge/compare/v3.0.0...v3.0.1) (2019-10-04)
