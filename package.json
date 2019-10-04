@@ -43,6 +43,7 @@
   "files": [
     "lib/index.d.ts",
     "lib/index.js",
+    "lib/index.js.map",
     "src/index.ts"
   ],
   "devDependencies": {
