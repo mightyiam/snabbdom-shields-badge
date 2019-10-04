@@ -50,7 +50,7 @@
     "typescript": "3.5.3"
   },
   "dependencies": {
-    "shields-badge-data": "^3.0.1",
+    "shields-badge-data": "^4.0.0",
     "snabbdom": "^0.7.3"
   },
   "nyc": {
