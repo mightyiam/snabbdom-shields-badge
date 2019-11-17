@@ -67,7 +67,7 @@
     "standard-version": "7.0.0",
     "tsconfigs": "4.0.1",
     "tslib": "1.10.0",
-    "typescript": "3.6.3"
+    "typescript": "3.7.2"
   },
   "dependencies": {
     "shields-badge-data": "^4.0.1",
