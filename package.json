@@ -65,7 +65,7 @@
     "nyc": "14.1.1",
     "nyc-config-100": "1.0.1",
     "standard-version": "7.0.1",
-    "tsconfigs": "4.0.1",
+    "tsconfigs": "4.0.2",
     "tslib": "1.10.0",
     "typescript": "3.7.2"
   },
