@@ -48,10 +48,10 @@
   ],
   "devDependencies": {
     "@commitlint/cli": "8.3.5",
-    "@commitlint/config-conventional": "8.3.4",
     "@commitlint/travis-cli": "8.3.5",
     "@typescript-eslint/eslint-plugin": "2.31.0",
     "ava": "3.8.2",
+    "commitlint-config-awesome": "1.0.4",
     "eslint": "7.0.0",
     "eslint-config-standard-with-typescript": "16.0.0",
     "eslint-plugin-import": "2.20.2",
