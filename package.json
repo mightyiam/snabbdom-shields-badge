@@ -66,7 +66,7 @@
     "nyc-config-100": "1.0.1",
     "standard-version": "8.0.0",
     "tsconfigs": "4.0.2",
-    "typescript": "3.9.2"
+    "typescript": "3.9.3"
   },
   "dependencies": {
     "shields-badge-data": "^4.0.1",
