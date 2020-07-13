@@ -50,7 +50,7 @@
     "@commitlint/cli": "8.3.5",
     "@commitlint/travis-cli": "8.3.5",
     "@typescript-eslint/eslint-plugin": "3.6.0",
-    "ava": "3.8.2",
+    "ava": "3.10.1",
     "crazy-commits": "1.0.4",
     "eslint": "7.2.0",
     "eslint-config-standard-with-typescript": "18.0.2",
