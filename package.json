@@ -70,7 +70,7 @@
   },
   "dependencies": {
     "shields-badge-data": "^4.0.1",
-    "snabbdom": "^0.7.4"
+    "snabbdom": "^1.0.0"
   },
   "nyc": {
     "all": "false",
